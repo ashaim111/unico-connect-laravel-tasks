@@ -21,13 +21,13 @@ Step 6: Run command "php artisan serve" to intialize the server (URL: localhost:
 
 ### Question 2: Create a REST API in Laravel which will read 20K records at a time from MySQL or MongoDB database & return them as JSON. API RTT(Round trip time) should be as minimum as possible.
             - There are two api's created:  First is without cache and Second is with cache<br>
-            - First Api URL: http://127.0.0.1:8000/api/get-todo-list<br>
-            - Second Api URL: http://127.0.0.1:8000/api/get-todo<br>
+            - First API URL: http://127.0.0.1:8000/api/get-todo-list<br>
+            - Second API URL: http://127.0.0.1:8000/api/get-todo<br>
             - File Location: app/Http/Controllers/Api/TodoListController<br>
             - Method name: 1. todoListWithCache <br> 
                            2. todoListWithoutCache<br>
                            
 ### Question 3: Prepare SQL query such that there is a user table with column "grades". You have to find out the user records from users table where users have got grades in this pattern (1,3) or (1,3,2) etc.
-            - Api URL: http://127.0.0.1:8000/api/get-user
+            - API URL: http://127.0.0.1:8000/api/get-user
             - File Location: app/Http/Controllers/Api/UserController
             - Method name: getUserRecordsFromDB
