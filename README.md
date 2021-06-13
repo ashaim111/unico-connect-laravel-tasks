@@ -1,5 +1,5 @@
 ### A1:
-            - Schedular is added in app/Console/Kernal.php  (schedular name - backup:run)
+            - Schedular is added in app/Console/Kernal.php  (scheduler name - backup:run)
             - Schedular will run on every night at 01:01.
             - On local machine we can run schedular by running following command : "php artisan backup:run".
             - But on live server we can create a cron and the cron will run the schedular automatically at midnight.
