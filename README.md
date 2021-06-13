@@ -1,13 +1,3 @@
-# Laravel Project
-Step 1: Clone the project from repo.<br>
-Step 2: Run command "composer install" and "npm install" to install relevant packages.<br>
-Step 3: Configure database inside project folder in file called laravel.sql import on your database or create a database laravel.<br>
-Step 4: Configure .env file with your db credentails.<br>
-Step 5: Run the migrations plus seed command to create the table with fake data.<br>
-Step 6: Run command "php artisan serve" to intialize the server (URL: localhost:8000)<br>
-
-## Following tasks has been completed based on the requirements:
-
 ### Q1: Add a cron job schedular and schedular should take backup of mysql database and upload it on the google drive.
             - Schedular is added in app/Console/Kernal.php  (schedular name - backup:run)
             - Schedular will run on every night at 01:01.
