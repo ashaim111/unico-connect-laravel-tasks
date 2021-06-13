@@ -1,6 +1,4 @@
 # Laravel Project
-
-## Project Installation <br>
 Step 1: Clone the project from repo.<br>
 Step 2: Run command "composer install" and "npm install" to install relevant packages.<br>
 Step 3: Configure database inside project folder in file called laravel.sql import on your database or create a database laravel.<br>
